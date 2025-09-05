@@ -1,24 +1,24 @@
 #root {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 32px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .products {
   width: 600px;
-  padding: 1rem;
+  padding: 16px;
 }
 
 .cart {
   width: 500px;
-  padding: 1rem;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -26,7 +26,7 @@
 
 .clear-cart-btn {
   margin-top: auto;
-  padding: 0.5rem 1rem;
+  padding: 8px 16px;
   background-color: #ff4444;
   color: white;
   border: none;
@@ -42,8 +42,8 @@ button{
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 96px;
+  padding: 24px;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -70,7 +70,7 @@ button{
 }
 
 .card {
-  padding: 2em;
+  padding: 32px;
 }
 
 .read-the-docs {
